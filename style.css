@@ -1,0 +1,210 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 20px; 
+    background-color: #ddddbb;
+    border-bottom: 5px groove black;
+}
+
+.inicio{
+    width: 150px;
+    height: 150px;
+}
+
+.navar .botones{
+    list-style: none;
+}
+
+.cadaboton{
+        display: inline-block;
+        padding: 0px 20px;
+        cursor: pointer;
+        transition: 0.3s;
+        font-size: 20px;
+}
+
+.cadaboton:hover{
+    transform: scale(1.2);
+    transition: 0.3s;
+}
+
+.cadauno{
+    color: black;
+    list-style: none;
+    text-decoration: none;
+}
+
+.cadauno:hover{
+    color: #3a9188;
+}
+
+.cuerpopodcast{
+    padding: 50px 20px;
+    background-color: beige;
+}
+
+
+.video{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sobremi{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 50px 200px;
+    background-color: beige;
+}
+
+.mitexto{
+    font-size: 30px;
+    text-align: center;
+}
+
+.silueta{
+    width: 200px;
+    height: auto;
+}
+
+.video{
+    padding: 20px 20px;
+}
+
+.textovideo{
+text-align: center;
+font-size: 20px;
+padding: 20px 100px;
+}
+
+.conclusionvideo{
+    padding: 20px 100px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.notion{
+    padding: 40px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tiendasapp{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px 300px;
+}
+
+.playstore{
+    width: 300px;
+    height: auto;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.playstore:hover{
+    transform: scale(1.2);
+    transition: 0.4s;
+}
+
+.appstore{
+    width: 300px;
+    height: auto;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.appstore:hover{
+    transform: scale(1.2);
+    transition: 0.4s;
+}
+
+footer{
+    background-color: #ddddbb;
+    padding: 20px 20px;
+    border-top: 5px groove black;
+}
+
+.imagenpie{
+    display: inline-block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logopie{
+    width: 120px;
+    height: auto;
+}
+
+.textopie{
+    text-align: center;
+}
+
+.ultimotextovideo{
+    padding: 20px 100px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.presentaciones{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px 400px;
+}
+
+.logopowerpoint{
+    width: 150px;
+    height: auto;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.logopowerpoint:hover{
+    transition: 0.3s;
+    transform: scale(1.2);
+}
+
+.logopowerpoint2{
+    width: 150px;
+    height: auto;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.logopowerpoint2:hover{
+    transition: 0.3s;
+    transform: scale(1.2);
+}
+
+.textopresentaciones{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px 400px;
+}
+
+.texto1{
+    text-align: center;
+}
+
+.texto2{
+    text-align: center;
+}
+
+.videopodcastcompleto{
+    width: 800px;
+    height: auto;
+}
