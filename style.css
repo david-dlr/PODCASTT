@@ -208,3 +208,91 @@ footer{
     width: 800px;
     height: auto;
 }
+
+@media screen and (max-width: 912px){
+    
+.botones{
+    text-align: center;
+}
+
+.textovideo{
+    font-size: 15px;
+    padding: 10px 10px;
+}
+
+.conclusionvideo{
+    font-size: 15px;
+    padding: 10px 10px;
+}
+
+
+.notionapp{
+    width: 150px;
+    height: auto;
+}
+
+.tiendasapp{
+    padding: 5px 5px;
+}
+
+.playstore{
+    width: 150px;
+    height: auto;
+}
+
+.appstore{
+    width: 150px;
+    height: auto;
+    padding: 5px 5px;
+}
+
+.ultimotextovideo{
+    font-size: 15px;
+    padding: 10px 10px;
+}
+
+.presentaciones{
+    padding: 10px 10px;
+}
+
+.logopowerpoint{
+    width: 100px;
+    height: auto;
+}
+
+.logopowerpoint2{
+    width: 100px;
+    height: auto;
+}
+
+.textopresentaciones{
+    padding: 10px 10px;
+}
+
+.texto1{
+    font-size: 15px;
+}
+
+.texto2{
+    font-size: 15px;
+}
+
+.sobremi{
+    padding: 10px 10px;
+}
+
+.personaje{
+    display: inline-block;
+}
+
+.silueta{
+    width: 100px;
+    height: auto;
+}
+
+.mitexto{
+    font-size: 15px;
+
+}
+
+}
